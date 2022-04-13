@@ -1,0 +1,27 @@
+Andi mendapatkan uang saku dengan jumlah sama setiap bulannya = if 1000000. Ia gunakan uang saku itu untuk membeli beberapa keperluan kuliah dan jajannya. Akan tetapi, ia juga ingin menabung dari sisa uang saku yang ia miliki, walaupun tidak tentu setiap bulannya. Andi meminta kawannya yang kuliah Informatika untuk membuatkan aplikasi untuk menghitung itu semua dengan menampilkan pengeluaran tiap bulan, total pengeluaran, dan uang tabungannya saat ini.
+
+output : 
+
+bulan 1 = Rp. XXXX
+bulan 2 = Rp. XXXX
+bulan n = Rp. XXXX
+
+total pengeluaran = bulan 1 + ... + bulan n 
+
+tabungan = sisanya 
+
+
+input : 
+
+array[dinamis](pengeluaran sesuai bulan)
+
+proses : 
+
+hitung_tabungan(int array[]){
+  perulangan sebanyak array {
+      sisaperbulan = array[index] - saku
+      keseluruhann += array[index]
+      tabungan += sisaperbulan
+  }
+}
+
